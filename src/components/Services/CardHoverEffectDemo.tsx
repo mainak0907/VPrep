@@ -30,24 +30,24 @@ export const projects = [
     title: "Learn From Modules",
     description:
       "Dive into interactive modules designed to make learning engaging and effective. Master new skills at your own pace with insightful content tailored to your learning journey.",
-    link: "/modules",
+    link: "/",
   },
   {
     title: "Attend Quizzes & Earn $",
     description:
       "Challenge yourself with quizzes that not only test your knowledge but also reward your effort. Earn rewards as you progress, turning learning into an exciting opportunity.",
-    link: "https://example.com/quizzes-earn",
+    link: "/",
   },
   {
-    title: "Book Class with Prepia",
+    title: "Book Class with VAssist",
     description:
       "Schedule your learning sessions effortlessly with Prepia. Choose from a variety of classes tailored to your interests and needs, ensuring a personalized learning experience.",
-    link: "#",
+    link: "/prepia",
   },
   {
     title: "Take Virtual Interview",
     description:
       "Prepare for success with virtual interviews that simulate real-world scenarios. Practice your skills in a supportive environment designed to boost your confidence and readiness.",
-    link: "/interview",
+    link: "/",
   },
 ];
