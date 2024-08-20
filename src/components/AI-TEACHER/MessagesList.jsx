@@ -1,12 +1,13 @@
 import { useAITeacher } from "@/hooks/useAITeacher";
 import { useEffect, useRef } from "react";
 import ReactMarkdown from "react-markdown";
+
 export const MessagesList = () => {
   const messages = useAITeacher((state) => state.messages);
   const playMessage = useAITeacher((state) => state.playMessage);
-  const { currentMessage } = useAITeacher();
+  const stopMessage = useAITeacher((state) => state.stopMessage);
+  const currentMessage = useAITeacher((state) => state.currentMessage);
   const classroom = useAITeacher((state) => state.classroom);
-  console.log(messages);
   const container = useRef();
 
   useEffect(() => {
@@ -15,8 +16,6 @@ export const MessagesList = () => {
       behavior: "smooth",
     });
   }, [messages.length]);
-
-
 
   return (
     <div
@@ -35,7 +34,7 @@ export const MessagesList = () => {
             Better than your classroom
           </h2>
           <h2 className="text-8xl font-bold font-jp text-red-600/90 italic">
-           India
+            India
           </h2>
         </div>
       )}
@@ -56,10 +55,7 @@ export const MessagesList = () => {
                 <ReactMarkdown className="text-4xl inline-block px-2 rounded-sm font-bold bg-clip-text text-transparent bg-gradient-to-br from-blue-300/90 to-white/90">
                   {message.answer}
                 </ReactMarkdown>
-               
               </div>
-
-
             </div>
             {currentMessage === message ? (
               <button

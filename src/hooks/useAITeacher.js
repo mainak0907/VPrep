@@ -60,8 +60,6 @@ export const useAITeacher = create((set, get) => ({
     const data = await res.json();
     message.answer = data.body;
     message.speech = speech;
-    console.log('tts', data);
-    console.log(message);
     set(() => ({
       currentMessage: message,
     }));
@@ -73,6 +71,11 @@ export const useAITeacher = create((set, get) => ({
     get().playMessage(message);
   },
   playMessage: async (message) => {
+    const { currentMessage } = get();
+    if (currentMessage?.audioPlayer && currentMessage !== message) {
+      currentMessage.audioPlayer.pause();
+    }
+
     set(() => ({
       currentMessage: message,
     }));
@@ -81,8 +84,6 @@ export const useAITeacher = create((set, get) => ({
       set(() => ({
         loading: true,
       }));
-      // Get TTS
-
       // Convert Markdown to HTML
       const htmlText = marked(message.answer);
       // Create a temporary div to strip HTML tags
@@ -120,9 +121,12 @@ export const useAITeacher = create((set, get) => ({
     message.audioPlayer.play();
   },
   stopMessage: (message) => {
-    message.audioPlayer.pause();
-    set(() => ({
-      currentMessage: null,
-    }));
+    if (message?.audioPlayer) {
+      message.audioPlayer.pause();
+      message.audioPlayer.currentTime = 0; // Optional: Reset playback position
+      set(() => ({
+        currentMessage: null,
+      }));
+    }
   },
 }));
