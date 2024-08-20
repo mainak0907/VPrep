@@ -42,7 +42,7 @@ export const projects = [
     title: "Book Class with VAssist",
     description:
       "Schedule your learning sessions effortlessly with Prepia. Choose from a variety of classes tailored to your interests and needs, ensuring a personalized learning experience.",
-    link: "/prepia",
+    link: "/vprep",
   },
   {
     title: "Take Virtual Interview",
