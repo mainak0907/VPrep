@@ -27,17 +27,18 @@ export const MessagesList = () => {
       ref={container}
     >
       {messages.length === 0 && (
-        <div className="pt-7 h-full w-full grid place-content-center text-center">
-          <h2 className="text-8xl font-bold text-white/90 italic">
-            VPrep
-            <br />
-            Better than your classroom
-          </h2>
-          <h2 className="text-8xl font-bold font-jp text-red-600/90 italic">
-            India
+        <div className="h-full w-full grid place-content-center text-center">
+          <img
+            src="https://i.postimg.cc/fyX6XDf9/Screenshot-2024-08-19-225804-removebg-preview.png"
+            alt="VPrep Logo"
+            className="h-96 w-auto mx-auto"
+          />
+          <h2 className="text-7xl font-bold font-jp text-white italic mt-4">
+            VIT Chennai
           </h2>
         </div>
       )}
+
       {messages.map((message, i) => (
         <div key={i}>
           <div className="flex">
