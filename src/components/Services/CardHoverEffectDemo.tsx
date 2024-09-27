@@ -27,27 +27,27 @@ export function CardHoverEffectDemo() {
 
 export const projects = [
   {
-    title: "Learn From Modules",
+    title: "Attend Quizzes !! Join Using Unique Codes",
     description:
-      "Dive into interactive modules designed to make learning engaging and effective. Master new skills at your own pace with insightful content tailored to your learning journey.",
+      "Challenge yourself with quizzes that not only test your knowledge but also help you retain information.",
     link: "/",
   },
   {
-    title: "Attend Quizzes & Earn $",
+    title: "AI Powered TODO List",
     description:
-      "Challenge yourself with quizzes that not only test your knowledge but also reward your effort. Earn rewards as you progress, turning learning into an exciting opportunity.",
-    link: "/",
-  },
-  {
-    title: "Book Class with VAssist",
-    description:
-      "Schedule your learning sessions effortlessly with Prepia. Choose from a variety of classes tailored to your interests and needs, ensuring a personalized learning experience.",
-    link: "/vassist",
+      "Stay organized and on track with a to-do list that uses AI to help you prioritize tasks and manage your time effectively.",
+    link: "https://todo-ai-using-next-js.vercel.app/",
   },
   {
     title: "Take Virtual Interview",
     description:
       "Prepare for success with virtual interviews that simulate real-world scenarios. Practice your skills in a supportive environment designed to boost your confidence and readiness.",
-    link: "/",
+    link: "https://v-prep-interview-bot.vercel.app/",
+  },
+  {
+    title: "Online Notes Taking Application",
+    description:
+      "Keep your notes organized and accessible with an online note-taking application that lets you create notes from anywhere.",
+    link: "https://v-prep-static-notes-service.vercel.app/",
   },
 ];
