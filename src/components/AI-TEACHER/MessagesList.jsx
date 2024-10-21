@@ -1,4 +1,5 @@
 import { useAITeacher } from "@/hooks/useAITeacher";
+import Image from "next/image";
 import { useEffect, useRef } from "react";
 import ReactMarkdown from "react-markdown";
 
@@ -28,7 +29,7 @@ export const MessagesList = () => {
     >
       {messages.length === 0 && (
         <div className="h-full w-full grid place-content-center text-center">
-          <img
+          <Image
             src="https://i.postimg.cc/fyX6XDf9/Screenshot-2024-08-19-225804-removebg-preview.png"
             alt="VPrep Logo"
             className="h-96 w-auto mx-auto"

@@ -1,5 +1,5 @@
 import { HoverEffect } from "../ui/card-hover-effect";
-
+import Image from "next/image";
 export function CardHoverEffectDemo() {
   return (
     <>

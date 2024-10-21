@@ -1,4 +1,5 @@
 import { teachers, useAITeacher } from "@/hooks/useAITeacher";
+import Image from "next/image";
 
 export const BoardSettings = () => {
   const teacher = useAITeacher((state) => state.teacher);
@@ -15,7 +16,7 @@ export const BoardSettings = () => {
             }`}
           >
             <div onClick={() => setTeacher(sensei)}>
-              <img
+              <Image
                 src={`/images/${sensei}.jpg`}
                 alt={sensei}
                 className="object-cover w-40 h-40"

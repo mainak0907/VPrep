@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import image1 from "../../public/images/image1.jpg";
+import logo from "../../public/images/logo.png";
 
 const page = () => {
   return (
@@ -30,11 +31,11 @@ const page = () => {
                 </div>
               </div>
               <div className="flex flex-col justify-center space-y-4">
-                <img
-                  src="https://i.postimg.cc/fyX6XDf9/Screenshot-2024-08-19-225804-removebg-preview.png"
-                  width="500"
-                  height="500"
+                <Image
+                  src={logo}
                   alt="VPrep AI"
+                  width={700}
+                  height={700}
                   className="mx-auto aspect-auto object-cover rounded-xl sm:w-96 lg:order-last"
                 />
               </div>
@@ -163,7 +164,7 @@ const page = () => {
                 </div>
                 <blockquote className="text-lg font-semibold">
                   &ldquo;I love how personalized the learning experience is.
-                  It's like having a tutor available 24/7.&rdquo;
+                  It&apos;s like having a tutor available 24/7.&rdquo;
                 </blockquote>
               </div>
               <div className="p-6 space-y-4 bg-gray-800 rounded-lg">
