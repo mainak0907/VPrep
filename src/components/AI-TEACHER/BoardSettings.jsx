@@ -16,7 +16,7 @@ export const BoardSettings = () => {
             }`}
           >
             <div onClick={() => setTeacher(sensei)}>
-              <Image
+              <img
                 src={`/images/${sensei}.jpg`}
                 alt={sensei}
                 className="object-cover w-40 h-40"

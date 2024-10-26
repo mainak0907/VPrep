@@ -21,8 +21,8 @@ const Navbar = () => {
             </svg>
           </button>
           <Link href="/" className="ml-4">
-            <Image
-              src={logo}
+            <img
+              src="https://i.postimg.cc/fyX6XDf9/Screenshot-2024-08-19-225804-removebg-preview.png"
               width={240}
               height={240}
               alt="VPrep"
