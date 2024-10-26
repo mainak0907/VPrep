@@ -47,6 +47,11 @@ const Navbar = () => {
                 Services
               </Link>
             </li>
+            <li>
+              <Link href="https://v-prep-ticketing-service-client-side.vercel.app/" className="hover:text-red-600 transition-colors duration-300 text-xl">
+                Ticketing Service
+              </Link>
+              </li>
           </ul>
         </div>
       </div>
