@@ -30,7 +30,7 @@ export const projects = [
     title: "Attend Quizzes !! Join Using Unique Codes",
     description:
       "Challenge yourself with quizzes that not only test your knowledge but also help you retain information.",
-    link: "/",
+    link: "https://vprepquiz.vercel.app/",
   },
   {
     title: "AI Powered TODO List",
