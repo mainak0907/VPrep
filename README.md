@@ -47,23 +47,17 @@ VPrep is an advanced interview preparation and skill development platform tailor
 
 ### Steps to Install and Run
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/vprep.git
-   cd vprep
-   ```
-
-2. **Install Dependencies**:
+1. **Install Dependencies**:
    ```bash
    npm install
    ```
 
-3. **Start the Development Server**:
+2. **Start the Development Server**:
    ```bash
    npm run dev
    ```
 
-4. **Access the Application**:
+3. **Access the Application**:
    Open your browser and navigate to `http://localhost:3000`.
 
 
