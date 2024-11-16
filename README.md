@@ -1,4 +1,5 @@
 # VPrep - Assistive Learning and Training Platform
+Made by Mainak Chattopadhyay 21BAI1217 , Parthiba Mukhopadhyay 21BAI1168
 
 VPrep is an advanced interview preparation and skill development platform tailored for VIT students. This all-in-one solution addresses key challenges faced during campus placement drives and aims to enhance students' learning experiences. With six powerful features, VPrep combines AI-powered tools and virtual learning environments to provide a seamless and engaging experience.
 
