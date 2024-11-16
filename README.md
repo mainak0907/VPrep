@@ -60,21 +60,6 @@ VPrep is an advanced interview preparation and skill development platform tailor
 3. **Access the Application**:
    Open your browser and navigate to `http://localhost:3000`.
 
-
-## Folder Structure
-
-vprep/
-├── public/               # Static assets
-├── src/
-│   ├── app/              # Next.js App Router setup
-│   ├── components/       # Reusable components
-│   ├── pages/            # API endpoints
-│   ├── styles/           # Global and component-specific styles
-│   └── utils/            # Helper functions
-├── .env.local.example    # Environment variable template
-├── package.json          # Project dependencies
-└── README.md             # Documentation
-
 ## Future Scope
 - Extend VPrep to other colleges beyond VIT.
 - Enhance AI capabilities for personalized learning recommendations.
