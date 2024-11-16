@@ -1,5 +1,3 @@
-Here’s a sample `README.md` file for your VPrep project:
-
 # VPrep - Assistive Learning and Training Platform
 
 VPrep is an advanced interview preparation and skill development platform tailored for VIT students. This all-in-one solution addresses key challenges faced during campus placement drives and aims to enhance students' learning experiences. With six powerful features, VPrep combines AI-powered tools and virtual learning environments to provide a seamless and engaging experience.
